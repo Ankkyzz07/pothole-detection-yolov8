@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 1
+names: ['pothole']
+
+roboflow:
+  workspace: ankitasangale30-gmail-com
+  project: pothole-detection-i00zy-hsvdj
+  version: dataset
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ankitasangale30-gmail-com/pothole-detection-i00zy-hsvdj/dataset/dataset
